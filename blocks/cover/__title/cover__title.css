@@ -7,6 +7,7 @@
   color: #FFFFFF;
   margin: 0 auto 32px;
   max-width: 560px;
+  white-space: pre-line;
 }
 
 @media screen and (max-width: 540px) {
