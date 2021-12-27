@@ -1,0 +1,17 @@
+.lead__illustration-img {
+  display: block; /* чтобы удалить расстояние по умолчанию между подписью и изображ*/
+  max-width: 984px;
+  margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__illustration-img {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__illustration-img {
+    width: 100%;
+  }
+}
