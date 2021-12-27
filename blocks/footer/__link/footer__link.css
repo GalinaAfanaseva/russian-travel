@@ -5,6 +5,7 @@
   font-style: normal;
   color: #FFFFFF;
   text-decoration: none;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 720px) {

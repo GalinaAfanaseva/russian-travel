@@ -142,12 +142,15 @@
     </main>
     <!-- Подвал страницы -->
     <footer class="footer">
-      <nav class="footer__links">
-        <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
-        <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
-        <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
-        <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
-        <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
+      <nav> <!-- Оформила ссылки в список, чтобы в мобильном разрешении ссылки
+        не были на всю ширину страницы (даже на пустом участке),а нажимались только непосредственно над самим текстом -->
+        <ul  class="footer__links">
+          <li class="footer__list-style"><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></li>
+          <li class="footer__list-style"><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></li>
+          <li class="footer__list-style"><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></li>
+          <li class="footer__list-style"><a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a></li>
+          <li class="footer__list-style"><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
+        </ul>
       </nav>
       <p class="footer__copyright">&copy; 2021. Галина Афанасьева</p>
     </footer>
