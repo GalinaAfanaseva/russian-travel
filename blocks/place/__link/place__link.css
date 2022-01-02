@@ -9,5 +9,9 @@
   border-bottom: white 1px solid;
 }
 
+.place__link:hover {
+  opacity: .8;
+  transition: .3s;
+}
 
 

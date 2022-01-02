@@ -15,8 +15,8 @@
   }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 320px) {
   .intro__title {
-    white-space: pre-line;
+    max-width: 230px;
   }
 }
